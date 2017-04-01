@@ -279,13 +279,15 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 #fh5co-header .overlay {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
+	z-index: 0;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 36px;
+	height: 100;
 }
 
 #fh5co-header .display-t,
