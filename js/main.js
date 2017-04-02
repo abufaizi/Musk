@@ -334,3 +334,5 @@
 
 
 }());
+
+$('body').scrollspy({ target: '#navbar' })
