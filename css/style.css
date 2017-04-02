@@ -24,6 +24,10 @@ body {
   }
 }
 
+#badge {
+    margin: 200px 0px;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
