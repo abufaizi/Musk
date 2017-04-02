@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	right: 0;
 	background: rgba(0, 0, 0, 0.5);
 	font-size: 36px;
-	height: 900px;
+	height: auto;
 }
 
 #fh5co-header .display-t,
