@@ -25,6 +25,11 @@ body {
   }
 }
 
+.moreinfo {
+    position: absolute;
+    width: 45px;
+}
+
 .smile {
     margin: 0px;
 }
@@ -88,6 +93,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+
+
 
 ::-webkit-selection {
   color: #fff;
@@ -466,7 +473,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .section-heading h2 {
   font-style: 40px;
   color: #fff;
-  font-family: "Satisfy", cursive;
+  font-size: 2.5em;
+  font-family: "Cormorant Garamond", Georgia, bold;
 }
 
 #fh5co-about .img-wrap img {
@@ -998,6 +1006,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-timeline .timeline-title {
   margin-top: 0;
+  font-size: 1.75em;
 }
 #fh5co-timeline .company {
   display: block;
@@ -1009,6 +1018,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-timeline .timeline-body > ul {
   color: darkgrey;
   margin-bottom: 0;
+  font-size: 1.2em;
 }
 #fh5co-timeline .timeline-body > p + p {
   margin-top: 5px;
@@ -1053,7 +1063,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
+  font-family: "Cormorant Garamond", Georgia, bold;
   color: #fff;
 }
 
