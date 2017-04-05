@@ -25,6 +25,10 @@ body {
   }
 }
 
+.smile {
+    margin: 0px;
+}
+
 #badge {
     margin: 5px 0px;
 }
@@ -271,6 +275,23 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 auto;
 }
 
+.full-width {
+    width: 100%
+}
+
+.googlemap {
+    width: 30%;
+    height: 400px;
+}
+
+.right-padding {
+    padding-right: 20px;
+}
+
+.left-padding {
+    padding-left: 20px;
+}
+
 #fh5co-counter,
 .fh5co-bg,
 #fh5co-gallery .fh5co-bg-img,
@@ -458,7 +479,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
-  margin-bottom: 170px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
@@ -467,7 +489,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-menu .fh5co-heading h2, #fh5co-gallery .fh5co-heading h2, #fh5co-reservation-form .fh5co-heading h2 {
   color: #fff;
-  font-family: "Satisfy", cursive;
+  font-family: "Cormorant Garamond", Georgia, bold;
+  font-size: 2.5em;
 }
 #fh5co-featured-menu .fh5co-item-wrap, #fh5co-gallery .fh5co-item-wrap, #fh5co-reservation-form .fh5co-item-wrap {
   padding-left: 20px;
@@ -545,7 +568,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-testimony .fh5co-heading h2 {
   color: #fff;
-  font-family: "Satisfy", cursive;
+  font-family: "Cormorant Garamond", Georgia, bold;
+  font-size: 2.5em;
 }
 #fh5co-featured-testimony .img-to-responsive img {
   margin-bottom: 20px;
@@ -554,6 +578,10 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-featured-testimony .img-to-responsive img {
     max-width: 100%;
   }
+    .googlemap, .left-padding, .right-padding {
+        padding: 0px;
+        width: 100%;
+    }
 }
 #fh5co-featured-testimony blockquote {
   border: none;
@@ -589,8 +617,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-slider .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
   color: #fff;
+  font-family: "Cormorant Garamond", Georgia, bold;
+  font-size: 2.5em;
 }
 
 #fh5co-slider-wrwap {
@@ -768,7 +797,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  font-family: "Satisfy", cursive;
+  font-family: "Cormorant Garamond", Georgia, bold;
+  font-size: 2.5em;
   color: #fff;
   margin-bottom: 20px !important;
 }
@@ -1720,13 +1750,17 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   font-size: 20px;
   font-weight: 300;
-  font-family: "Satisfy", cursive;
+  font-family: "Cormorant Garamond", Georgia, bold;
   color: #fff;
 }
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
   border-color: #fff;
+}
+
+#monthlyspecial {
+    font-family: "Cormorant Garamond", Georgia, bold;
 }
 
 textarea {
