@@ -38,6 +38,10 @@ body {
     margin: 5px 0px;
 }
 
+.givemesomespace {
+    padding-bottom: 120px;
+}
+
 #mainservices, #contact, #testimonials, #monthly{
     padding-top: 100px;
     margin-top: -100px;
