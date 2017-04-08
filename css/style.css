@@ -39,7 +39,8 @@ body {
 }
 
 .givemesomespace {
-    padding-bottom: 126px;
+	padding-bottom: 21px;
+	padding-top: 72px;
 }
 
 #mainservices, #contact, #testimonials, #monthly{
