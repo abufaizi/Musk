@@ -75,6 +75,30 @@ body {
   content: "";
 }
 
+.tipcontainer {
+    margin: 10% auto;
+}
+
+.tooltip { position:relative; z-index:998}
+.tooltip p { display: none; }
+.tooltip:hover {z-index: 999;}
+.tooltip:hover p {
+    display:block;
+    width:250px;
+    padding:10px;
+    color:#FFF;
+    background:rgba(30, 30, 30, 0.85);
+    font-size:14px;
+    text-decoration:none;
+    position:absolute;
+    border-radius:6px;
+    text-align: center;
+}
+
+.tooltip span {
+    font-family: "Cormorant Garamond", Georgia, serif;
+}
+
 a {
   color: #f0ad4e;
   -webkit-transition: 0.5s;
