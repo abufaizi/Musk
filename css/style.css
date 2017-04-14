@@ -48,6 +48,10 @@ body {
     margin-top: -100px;
 }
 
+#monthly {
+    margin-bottom: 100px;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -75,6 +79,10 @@ body {
   content: "";
 }
 
+.tooltip img {
+    border-radius:11px;
+}
+
 .tipcontainer {
     margin: 10% auto;
 }
@@ -84,15 +92,18 @@ body {
 .tooltip:hover {z-index: 999;}
 .tooltip:hover p {
     display:block;
-    width:250px;
+    width:100%;
     padding:10px;
     color:#FFF;
     background:rgba(30, 30, 30, 0.85);
     font-size:14px;
     text-decoration:none;
     position:absolute;
-    border-radius:6px;
+    border-radius:11px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     text-align: center;
+    top:0px;
 }
 
 .tooltip span {
@@ -1704,8 +1715,8 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #f0ad4e;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec3e44 !important;
-  border-color: #ec3e44 !important;
+  background: #f0ad4e !important;
+  border-color: #f0ad4e !important;
 }
 .btn-primary.btn-outline {
   -webkit-border-radius: 0px;
