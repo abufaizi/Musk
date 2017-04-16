@@ -25,6 +25,11 @@ body {
   }
 }
 
+.timeline-title b {
+    color: #ffec87;
+    font-style: normal;
+}
+
 .moreinfo {
     position: absolute;
     width: 25px;
@@ -178,6 +183,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: #000 url(../images/broken_noise.png) repeat;
   }
 }
+
 @media screen and (max-width: 480px) {
   .fh5co-nav.scrolled {
     background: transparent;
@@ -586,9 +592,21 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
+    .fixit {
+        width: 80%;
+    }
   #fh5co-about .img-wrap img {
     max-width: 100%;
   }
+}
+
+@media screen and (max-width: 768px) {
+    .fixit {
+        width: 100%;
+    }
+    #monthly {
+        margin-bottom: 40px
+    }
 }
 
 #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
