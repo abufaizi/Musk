@@ -25,6 +25,11 @@ body {
   }
 }
 
+#bigger {
+    color: lightgrey;
+    font-size: 1.1em;
+}
+
 .timeline-title b {
     color: #ffec87;
     font-style: normal;
@@ -1097,6 +1102,10 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-timeline .timeline > li > .timeline-badge {
     margin-left: -10px !important;
   }
+    
+    .top {
+        display: none;
+    }
 }
 #fh5co-timeline .timeline > li > .timeline-badge i {
   display: table-cell;
@@ -1942,6 +1951,10 @@ textarea {
 
 .bootstrap-datetimepicker-widget {
   color: #000 !important;
+}
+
+.top {
+    z-index: 10000;
 }
 
 /*# sourceMappingURL=style.css.map */
